@@ -1,0 +1,83 @@
+{
+  "author": "Anup Kumar",
+  "bugs": {
+    "url": "https://github.com/Anupx0/Anupbot/tree/main/FCA/issues"
+  },
+  "dependencies": {
+    "bluebird": "^2.11.0",
+    "cheerio": "^1.0.0-rc.10",
+    "https-proxy-agent": "^4.0.0",
+    "mqtt": "^4.2.8",
+    "npmlog": "^1.2.0",
+    "request": "^2.88.2",
+    "websocket-stream": "^5.5.0"
+  },
+  "deprecated": false,
+  "description": "A Facebook chat API by Anup Kumar",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "mocha": "^7.0.1",
+    "prettier": "^1.11.1"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=10.x"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "es2017": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        1,
+        {
+          "argsIgnorePattern": "^_",
+          "varsIgnorePattern": "^_"
+        }
+      ],
+      "no-empty": [
+        "error",
+        {
+          "allowEmptyCatch": true
+        }
+      ]
+    }
+  },
+  "homepage": "https://github.com/Anupx0/Anupbot/tree/main/FCA#readme",
+  "keywords": [
+    "facebook",
+    "chat",
+    "api",
+    "fca"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "fca-aliya",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anupx0/Anupbot/tree/main/FCA"
+  },
+  "scripts": {
+    "lint": "eslint **.js",
+    "prettier": "prettier utils.js src/* --write",
+    "test": "mocha"
+  },
+  "version": "33.10.20"
+}
